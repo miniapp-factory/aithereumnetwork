@@ -19,7 +19,6 @@ export default function QuizResult({ animal, onRetake }: Props) {
     horse: "Horse",
   };
   const title = `You are a ${animalNames[animal]}!`;
-  const description = `Take the quiz again to see if you get a different result.`;
 
   return (
     <div className="flex flex-col items-center gap-4">
